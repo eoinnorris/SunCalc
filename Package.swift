@@ -5,13 +5,6 @@ import PackageDescription
 
 let package = Package(
     name: "SunCalc",
-    platforms: [
-        .iOS(.v9),
-        .macOS(.v10_10),
-        .tvOS(.v9),
-        .watchOS(.v2),
-        .visionOS(.v1)
-    ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
